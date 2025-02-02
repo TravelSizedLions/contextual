@@ -22,6 +22,12 @@
       "source": "remote",
       "checkout": "dev",
       "subfolder": "addons/gdlibnode"
+    },
+    "gdlib-editorui": {
+      "url": "https://github.com/TravelSizedLions/gdlib-editorui.git",
+      "source": "remote",
+      "checkout": "dev",
+      "subfolder": "addons/gdlib-editorui"
     }
   }
 }
