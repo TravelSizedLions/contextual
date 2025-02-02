@@ -13,3 +13,12 @@ config_version=5
 config/name="contextual"
 run/main_scene="uid://bp547c1dbc5k"
 config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoload]
+
+TreeAccess="*res://addons/tree-access/src/tree_access.gd"
+InputListener="*res://addons/gdlib-editorinput/src/input_listener.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdlib-editorinput/plugin.cfg", "res://addons/tree-access/plugin.cfg")
