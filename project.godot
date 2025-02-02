@@ -13,3 +13,6 @@ config_version=5
 config/name="contextual"
 run/main_scene="uid://bp547c1dbc5k"
 config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoloads]
+TreeAccess="uid://nesglbrmkt46"
