@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ceu8s4sk6bf6o"]
+
+[node name="margin_container" type="MarginContainer"]
+offset_right = 100.0
+offset_bottom = 23.0
+
+[node name="context_menu_item" type="HBoxContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="button" type="Button" parent="context_menu_item"]
+custom_minimum_size = Vector2(100, 20)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "<item>
+"
+alignment = 0

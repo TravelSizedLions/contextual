@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw8i8fpe2b2c6"]
+
+[ext_resource type="Texture2D" uid="uid://bpbwlqo663ace" path="res://addons/contextual/context_menu_bg.png" id="1_dw1jx"]
+[ext_resource type="Theme" uid="uid://1tfjdgp88wo0" path="res://addons/contextual/contextual.theme.tres" id="1_s4l8m"]
+
+[node name="context_menu" type="PanelContainer"]
+offset_right = 8.0
+offset_bottom = 8.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource("1_s4l8m")
+
+[node name="background" type="TextureRect" parent="."]
+visible = false
+layout_mode = 2
+texture = ExtResource("1_dw1jx")
+
+[node name="margin" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="list_container" type="VBoxContainer" parent="margin"]
+layout_mode = 2

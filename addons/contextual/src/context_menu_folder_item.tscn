@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://r4b2142dv5sp"]
+
+[node name="context_menu_folder_item" type="HBoxContainer"]
+offset_right = 100.0
+offset_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = -16
+
+[node name="button" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 20)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "<submenu>"
+alignment = 0
+
+[node name="margin_container" type="MarginContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_constants/margin_left = -18
+
+[node name="label" type="Label" parent="margin_container"]
+layout_mode = 2
+text = "🡲"
