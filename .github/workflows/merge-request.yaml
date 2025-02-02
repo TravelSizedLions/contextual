@@ -8,4 +8,4 @@ on:
 
 jobs:
   unit-tests:
-    uses: TravelSizedLions/actions/test-drive.yaml@dev
+    uses: TravelSizedLions/actions/.github/workflows/merge-request.yaml@dev
