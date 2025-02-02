@@ -22,6 +22,24 @@
       "source": "remote",
       "checkout": "dev",
       "subfolder": "addons/gdlibnode"
+    },
+    "gdlib-editorcolors": {
+      "url": "https://github.com/TravelSizedLions/gdlib-editorcolors.git",
+      "source": "remote",
+      "checkout": "dev",
+      "subfolder": "addons/gdlib-editorcolors"
+    },
+    "gdlib-editorui": {
+      "url": "https://github.com/TravelSizedLions/gdlib-editorui.git",
+      "source": "remote",
+      "checkout": "dev",
+      "subfolder": "addons/gdlib-editorui"
+    },
+    "gdlib-editorinput": {
+      "url": "https://github.com/TravelSizedLions/gdlib-editorinput.git",
+      "source": "remote",
+      "checkout": "dev",
+      "subfolder": "addons/gdlib-editorinput"
     }
   }
 }
