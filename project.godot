@@ -21,4 +21,4 @@ InputListener="*res://addons/gdlib-editorinput/src/input_listener.gd"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gdlib-editorinput/plugin.cfg", "res://addons/tree-access/plugin.cfg")
+enabled=PackedStringArray("res://addons/contextual/plugin.cfg", "res://addons/gdlib-editorinput/plugin.cfg", "res://addons/tree-access/plugin.cfg")
