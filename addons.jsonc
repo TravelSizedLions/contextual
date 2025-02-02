@@ -34,6 +34,12 @@
       "source": "remote",
       "checkout": "dev",
       "subfolder": "addons/gdlib-editorui"
+    },
+    "gdlib-editorinput": {
+      "url": "https://github.com/TravelSizedLions/gdlib-editorinput.git",
+      "source": "remote",
+      "checkout": "dev",
+      "subfolder": "addons/gdlib-editorinput"
     }
   }
 }
