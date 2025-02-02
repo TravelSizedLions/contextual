@@ -14,5 +14,14 @@ config/name="contextual"
 run/main_scene="uid://bp547c1dbc5k"
 config/features=PackedStringArray("4.4", "Forward Plus")
 
+[autoload]
+
+TreeAccess="*res://addons/tree-access/src/tree_access.gd"
+
 [autoloads]
+
 TreeAccess="uid://nesglbrmkt46"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/tree-access/plugin.cfg")
