@@ -2,7 +2,7 @@
   "$schema": "https://chickensoft.games/schemas/addons.schema.json",
   "name": "contextual",
   "description": "Beautiful context menus for Godot plugins.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "cache": "../.addons",
   "addons": {
     "test-drive": {
