@@ -26,7 +26,7 @@
     "gdlib-editorcolors": {
       "url": "https://github.com/TravelSizedLions/gdlib-editorcolors.git",
       "source": "remote",
-      "checkout": "v0.0.3",
+      "checkout": "v0.0.4",
       "subfolder": "addons/gdlib-editorcolors"
     },
     "gdlib-editorui": {
