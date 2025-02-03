@@ -8,37 +8,37 @@
     "test-drive": {
       "url": "https://github.com/TravelSizedLions/test-drive.git",
       "source": "remote",
-      "checkout": "dev",
+      "checkout": "v0.0.3",
       "subfolder": "addons/test-drive"
     },
     "funk": {
       "url": "https://github.com/TravelSizedLions/funk.git",
       "source": "remote",
-      "checkout": "dev",
+      "checkout": "v0.0.3",
       "subfolder": "addons/funk"
     },
     "gdlibnode": {
       "url": "https://github.com/TravelSizedLions/gdlibnode.git",
       "source": "remote",
-      "checkout": "dev",
+      "checkout": "v0.0.3",
       "subfolder": "addons/gdlibnode"
     },
     "gdlib-editorcolors": {
       "url": "https://github.com/TravelSizedLions/gdlib-editorcolors.git",
       "source": "remote",
-      "checkout": "dev",
+      "checkout": "v0.0.3",
       "subfolder": "addons/gdlib-editorcolors"
     },
     "gdlib-editorui": {
       "url": "https://github.com/TravelSizedLions/gdlib-editorui.git",
       "source": "remote",
-      "checkout": "dev",
+      "checkout": "v0.0.4",
       "subfolder": "addons/gdlib-editorui"
     },
     "gdlib-editorinput": {
       "url": "https://github.com/TravelSizedLions/gdlib-editorinput.git",
       "source": "remote",
-      "checkout": "dev",
+      "checkout": "v0.0.2",
       "subfolder": "addons/gdlib-editorinput"
     }
   }
